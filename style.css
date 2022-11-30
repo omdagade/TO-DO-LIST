@@ -142,3 +142,41 @@ td{
     padding: 0 10rem;
 }
 
+@media (max-width:1252px) {
+    #timetxt{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width:412px) {
+    #header{
+        visibility:hidden;
+    }
+    #timediv{
+        padding-top: 0px;
+    }
+}
+
+@media(max-width:325px){
+    #Title{
+        width: 10rem;
+    }
+    #desc{
+        width: 10rem;
+    }
+    #label1{
+        padding-left: 1rem;
+    }
+    #label2{
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:826px) {
+    th{
+        padding: 0 1rem;
+    }
+    td{
+        padding: 0 1rem;
+    }
+}
