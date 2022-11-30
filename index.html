@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <head>
+        <div id="header">
+            <p id="hele">HOME</p>
+            <p id="hele">CONTACT US</p>
+            <p id="hele">REVIEW</p>
+        </div>
+    </head>
+
+    <main>
+        <div id="timediv"><p id="timetxt">1234</p></div>
+
+        <div id="inputform">
+            <form action="">
+                <label id="label1" for="Title">Title</label><br>
+                <input type="text" minlength="5" maxlength="20" name="Title" id="Title">
+            </form>
+        </div>
+
+        <div id="inputform1">
+            <form action="">
+                <label id="label2" for="desc">Description</label><br>
+                <textarea name="desc" id="desc" minlength="5" maxlength="30" cols="30" rows="10"></textarea>
+            </form>
+        </div>
+
+        <div id="btn"><button id="subbtn" type="submit">Add To List</button></div>
+
+        <div id="test"></div>
+
+        <div id="todo">
+            <p id="todoo">*TO DO LIST*</p>
+        </div>
+        <div id="table">
+            <table id="tablee">
+                <thead>
+                    <tr>
+                        <th scope="col">Sno</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>GET COFFEE</td>
+                        <td>You need cofee</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>GET TEA</td>
+                        <td>You need tea</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </main>
+    <script src="todo.js"></script>
+
+</body>
+
+</html>

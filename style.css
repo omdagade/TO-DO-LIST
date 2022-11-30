@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    background-color: tomato;
+    height: 3rem;
+    width: 100%;
+    border: .1rem solid black;
+    align-items: center;
+    position: fixed;
+}
+
+#hele{
+    padding: 0 2rem;
+    color: white;
+    height: 3rem;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+#hele:hover{
+    color: white;
+    height: 1.4rem;
+    border: .1rem solid black;
+    font-size: 1.2rem;
+    background-color: rgb(49, 14, 250);
+    padding-top: 1.2rem;
+    cursor: pointer;
+
+}
+
+#timediv{
+    display: flex;
+    border-bottom: .1rem dotted black;
+    color: black;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+#timetxt{
+    margin-left: 70rem;
+    margin-top: .5rem;
+    color: blue;
+    font-size: 1rem;
+}
+
+#timetxt:hover{
+    font-size:1.2rem ;
+}
+
+#inputform{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#label1{
+    font-size: 1.5rem;
+    
+    padding-left: 8.5rem;;
+}
+
+#Title{
+    height: 2rem;
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+#inputform1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#label2{
+    font-size: 1.5rem;
+    
+    padding-left: 6.5rem;;
+}
+
+#test{
+    border-bottom: .1rem dotted black;
+    margin-top: 1rem;
+}
+
+
+#desc{
+    height: 5rem;
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#subbtn{
+    color: white;
+    background-color: tomato;
+    font-size: 1rem;
+    font-weight: 200;
+    height: 3rem;
+    width: 7rem;
+    cursor: pointer;
+    border: .1rem solid black;
+    
+}
+
+#subbtn:hover{
+    height: 3.5rem;
+    width: 7.5rem;
+    cursor: pointer;
+}
+
+#todo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#todoo{
+    font-size: 2rem;
+    color: red;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+th{
+    padding:0 10rem;
+    
+}
+
+td{
+    padding: 0 10rem;
+}
+
